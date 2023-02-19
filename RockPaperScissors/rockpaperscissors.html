@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../Index.css">
+        <link rel="stylesheet" href="./rockpaperscissors.css">
+    </head>
+    <body>
+        <div class="colourblock left"></div>
+        <div class="colourblock right"></div>
+        <div class="topblock"></div>
+        <h1><span id="rockTitle">Rock,</span><span id="paperTitle"> Paper,</span><span id="scissorsTitle"> Scissors</span></h1>
+        <section id="scores" class="section">
+            <span id="playerScore"></span>
+            <span id="computerScore"></span>
+        </section>
+        <section id="game" class="section">
+            <h2 class="subtitle">What would you like to choose?</h2>
+            <fieldset id="selection">
+                <label for="rock"><input id="rock" name="option" type="radio" checked="checked" value="Rock"/>Rock</label>
+                <label for="paper"><input id="paper" type="radio" name="option" value="Paper"/> Paper</label>
+                <label for="scissors"><input id="scissors" type="radio" name="option" value="Scissors"/>Scissors</label>
+                <input id="submit" type="submit" name="sumbit" />
+            </fieldset>
+        </section>
+        <section id="guesses" class="section">
+          <p>You guessed: <span id="playerGuess"></span></p>
+          <p>The Computer guessed: <span id="computerGuess"></span></p>
+          <p id="result"></p>
+        </section>
+        <div class="bottomblock"></div>
+    </body>
+    <script type="text/javascript" src="./rockpaperscissors.js"></script>
+</html>
+
+
+
