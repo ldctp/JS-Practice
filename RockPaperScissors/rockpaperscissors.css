@@ -10,6 +10,13 @@ html {
     padding: 0;
 }
 
+.menubutton{
+    z-index: 2;
+    text-decoration: none;
+    font-size: 7.5rem;
+    color: black;
+}
+
 body {
     background-color:#fff8e4;
     top: 0;
