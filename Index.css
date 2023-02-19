@@ -4,4 +4,141 @@ html {
     font-family:'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 62.5%;
 }
+body, h1{
+    margin: 0;
+}
+
+body {
+    background: repeating-linear-gradient(
+  to right,
+  white,
+  white 10px,
+  #fff4f8 10px,
+  #fff4f8 20px
+);
+}
+
+h1{
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Twinkle Star', cursive;
+    background-color: #ffe8f1;
+    border-bottom: 6px solid #ffd6e6;
+    color: #272229;
+    width: 100%;
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gamecontainer{
+    background-color: #ffe8f1;
+}
+
+.gamecontainer:hover {
+    background-color: #ffd6e6;
+}
+
+.gamepreview {
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gametitle {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    color:black;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.rockpaperscissors {
+    font-size: 4rem;
+}
+
+.gametitlecontainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    background-color: #ffa8ca;
+}
+
+li {
+    width: 350px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 400px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+@media screen and (min-width: 750px) {
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }   
+    .rockpaperscissors {
+        font-size: 8rem;
+    } 
+}
+
+@media screen and (min-width: 870px) {
+        h1 {
+            font-size: 6.5rem;
+        }
+    }
+
+@media screen and (min-width: 950px) {
+        h1 {
+            font-size: 7rem;
+        }
+    }
+
+@media screen and (min-width: 1100px) {
+h1 {
+    font-size: 8rem;
+}    
+h2 {
+    font-size: 3rem;
+}
+.rockpaperscissors {
+    font-size: 12rem;
+}
+}
+
+@media screen and (min-width: 1300px) {
+    h1 {
+        font-size: 10rem;
+    }   
