@@ -14,23 +14,26 @@
         <div class="colourblock right"></div>
         <div class="topblock"></div>
         <h1><span id="rockTitle">Rock,</span><span id="paperTitle"> Paper,</span><span id="scissorsTitle"> Scissors</span></h1>
+        <section id="game" class="section">
+            <section class="competitor">
+                <h2 class="subtitle">Select a choice:</h2>
+                <section id="choices">
+                    <span class="option user" id="rock">🪨</span>
+                    <span class="option user" id="paper">📃</span>
+                    <span class="option user" id="scissors">✂️</span>
+                </section>
+            </section>
+            <section class="competitor">
+            <h2 class="subtitle">The Computer's Choice:</h2>
+                <span id="computerChoice" class="option"></span>
+            </section>
+        </section>
+        </section>
         <section id="scores" class="section">
+            <p id="result"></p>
             <span id="playerScore"></span>
             <span id="computerScore"></span>
-        </section>
-        <section id="game" class="section">
-            <h2 class="subtitle">What would you like to choose?</h2>
-            <fieldset id="selection">
-                <label for="rock"><input id="rock" name="option" type="radio" checked="checked" value="Rock"/>Rock</label>
-                <label for="paper"><input id="paper" type="radio" name="option" value="Paper"/> Paper</label>
-                <label for="scissors"><input id="scissors" type="radio" name="option" value="Scissors"/>Scissors</label>
-                <input id="submit" type="submit" name="sumbit" />
-            </fieldset>
-        </section>
-        <section id="guesses" class="section">
-          <p>You guessed: <span id="playerGuess"></span></p>
-          <p>The Computer guessed: <span id="computerGuess"></span></p>
-          <p id="result"></p>
+            <span id="playagain"></span>
         </section>
         <div class="bottomblock"></div>
     </body>
