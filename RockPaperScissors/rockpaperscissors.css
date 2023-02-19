@@ -40,7 +40,7 @@ h1 {
     font-family: 'Spicy Rice', cursive;
     font-size: 5rem;
     z-index: 2;
-    margin: 60px 0 0px 0;
+    margin: 20px 0 0px 0;
 }
 
 #scores, .subtitle {
@@ -48,7 +48,7 @@ h1 {
 }
 
 #scores {
-    margin: 50px auto;
+    margin: 30px auto;
 }
 
 #game {
@@ -69,6 +69,10 @@ h1 {
 
 #scissorsTitle {
     color: #ff6329;
+}
+
+section {
+    margin: 0px;
 }
 
 .playagain, .topblock, .bottomblock {
@@ -93,7 +97,7 @@ h1 {
 }
 
 .option {
-    font-size: 7rem;
+    font-size: 4rem;
 }
 
 .user, .playagain {
@@ -130,7 +134,7 @@ h1 {
 @media screen and (min-width: 900px){
     h1 {
         font-size: 9rem;
-        margin-top: 100px;
+        margin-top: 20px;
     }
     .option {
         font-size: 10rem;
