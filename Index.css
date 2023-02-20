@@ -36,11 +36,24 @@ h2 {
     font-size: 2rem;
 }
 
+li::before {
+    left: 0;
+    position: absolute;
+  }
+
 ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    list-style-position: inside;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+a {
+    padding-left: 0;
 }
 
 .gamecontainer{
@@ -91,16 +104,23 @@ a {
     text-decoration: none;
 }
 
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
 
 @media screen and (min-width: 400px) {
     h1 {
         font-size: 3rem;
     }
+}
 
 @media screen and (min-width: 600px) {
     h1 {
         font-size: 4rem;
     }
+}
 
 @media screen and (min-width: 750px) {
     h1 {
@@ -141,4 +161,5 @@ h2 {
 @media screen and (min-width: 1300px) {
     h1 {
         font-size: 10rem;
-    }   
+    }
+}
